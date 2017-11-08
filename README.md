@@ -3,25 +3,43 @@ Challenge 9 - Big Data Aggregator, Take 2
 
 Description
 Let's assume we have CSV files that contain leaderboard information for a game. Each file has a list of names (each up to 20 alphanumeric characters long) along with a score (integer ranging from 1 to 20k) and a date (in dd-MM-yyyy format) in each line. For example: 
+
 scores.csv
+
 DavidD,1200,30-05-2017
+
 DavidD,1500,30-05-2017
+
 O13dumDum,1500,30-05-2017
+
 Azxcd1234,1500,29-05-2017
+
 RjohBo2,1500,30-05-2017
+
+
 The file is not sorted in any way and can contain identical lines, which would represent a player having achieved the same score on the same day more than once. 
+
 A single file could contain up to 5 million lines.
+
 
 We want to be able to parse such files, combining their data, and calculating the top 10 for given periods of time.
 The returned top 10 should be in the following format, sorted by highest score to lowest and contain only the 10 highest (or less if no data is available for more):
+
 {
+
     "top10": [
+    
         { "name": score },
+	
         ...
+	
     ]
+    
 }
 
+
 You should build 2 HTTP POST endpoints:
+
 Request
 Type
 BODY
