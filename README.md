@@ -67,7 +67,7 @@ You should also provide some way to reset the data of the system (whether that i
 Objective
 The challenge is in building an efficient data structure that allows for good resource management, and parsing and processing the file data and sending back the response as fast as possible.
 Feel free to pick any combination technologies which suit the problem or your learning desires.
-You can get sample input files for your testing from this page: Dev Challenge 9 Sample Files. (make sure to unzip them before using them). They are 1mil entries each, all using the same 5k unique users.
+You can get sample input files for your testing from this page:https://confluence.gamesys.corp/display/~kriton.tsintaris/Dev+Challenge+9+Sample+Files (make sure to unzip them before using them). They are 1mil entries each, all using the same 5k unique users.
 
 By the deadline, you must have sent us the source code of your solution with simpe instructions on how to build the docker image and run it. 
 During assesement we will do the following 2 tests for different sized datasets. The first will be a dataset, that assuming you have a good compact data structure, should fit in memory. The second will be a huge dataset where we do not see how you would be able to fit it all in memory and other tricks & disk utilization would be expected. Both datasets will have to run on the same docker image.
