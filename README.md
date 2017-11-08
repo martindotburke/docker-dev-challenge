@@ -1,6 +1,8 @@
 # docker-dev-challenge
 Challenge 9 - Big Data Aggregator, Take 2
 
+https://confluence.gamesys.corp/display/GP/Challenge+9+-+Big+Data+Aggregator%2C+Take+2
+
 Description
 Let's assume we have CSV files that contain leaderboard information for a game. Each file has a list of names (each up to 20 alphanumeric characters long) along with a score (integer ranging from 1 to 20k) and a date (in dd-MM-yyyy format) in each line. For example: 
 
