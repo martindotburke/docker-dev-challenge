@@ -1,0 +1,23 @@
+{
+  "name": "docker-dev-challenge",
+  "version": "1.0.0",
+  "description": "Challenge 9 - Big Data Aggregator, Take 2",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "stop": "kill -9 $(ps aux | grep '\\snode\\s' | awk '{print $2}')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martindotburke/docker-dev-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martindotburke/docker-dev-challenge/issues"
+  },
+  "homepage": "https://github.com/martindotburke/docker-dev-challenge#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
