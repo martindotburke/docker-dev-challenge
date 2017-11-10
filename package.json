@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/martindotburke/docker-dev-challenge#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "^1.18.2",
+    "csv-parse": "^2.0.0",
+    "express": "^4.16.2",
+    "node-file-loader": "^0.1.0"
   }
 }
